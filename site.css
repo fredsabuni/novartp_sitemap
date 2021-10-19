@@ -1,0 +1,26 @@
+
+
+#lot103a{
+  display: none;
+  width: 160px; 
+  text-align: center;
+  border-radius: 1px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  background-color: #fff;
+  border: solid 8px #315b5e;
+}
+ 
+#lot103{
+	cursor: pointer; 
+}
+
+#lot103:hover + #lot103a{
+    display: inline-block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
